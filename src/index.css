@@ -1,5 +1,71 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../src/assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Unbounded;
+    src: url("../src/assets/fonts/Unbounded-Regular.ttf");
+}
+
 @import "tailwindcss";
 
 @theme {
 
+    /* fonts and typography */
+    --font-montserrat: Montserrat, "sans-serif";
+    --font-unbounded: Unbounded, "sans-serif";
+    
+    --biggest-font-size: 2rem;
+    --bigger-font-size: 1.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /* font weight */
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /* z-index */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
+    /* header size */
+    --header-height: 3.5rem;
+
+    /* colors */
+    --hue: 255;
+    --first-color: hsl(var(--hue), 60%, 64%);
+    --first-color-alt: hsl(var(--hue), 80%, 56%);
+    --first-color-alt-2: hsl(var(--hue), 60%, 56%);
+    --first-color-light: hsl(var(--hue), 60%, 74%);
+    --title-color: hsl(240, 8%, 95%);
+    --text-color: hsl(240, 8%, 70%);
+    --text-color-light: hsl(240, 8%, 50%);
+    --body-color: hsl(240, 100%, 2%);
+    --container-color: hsl(240, 8%, 6%);
+}
+
+#blob-animate {
+    width: 125px;
+    height: 125px;
+    background: linear-gradient(180deg, var(--first-color-alt) 20%, var(--first-color-light) 100%);
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(35px);
+    z-index: -1;
+    animation: animateBlob 5s linear infinite;
+}
+
+@keyframes animateBlob {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
