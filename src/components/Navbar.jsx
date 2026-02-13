@@ -1,8 +1,8 @@
 export default function Navbar() {
     return (
-        <div className="fixed w-full bg-linear-to-b from-(--body-color) from-60% to-[hsla(240,100%,2%,0)] z-(--z-fixed)">
-            <div id="blob-animate" className="-top-10 -left-10"></div>
-            <nav className="flex justify-between items-center p-4 m-4 font-unbounded tracking-widest">
+        <div className="fixed w-full flex justify-center bg-linear-to-b from-(--body-color) from-60% to-[hsla(240,100%,2%,0)] z-(--z-fixed)">
+            <div id="blob-animate" className="-top-12 -left-12"></div>
+            <nav className="w-280 flex justify-between items-center p-4 m-4 font-unbounded tracking-widest">
                 <div className="font-semibold text-(--title-color) text-shadow-2xs hover:text-(--first-color) self-start transition duration-400 ease-in-out">
                     <a href="#">Supawith</a>
                 </div>

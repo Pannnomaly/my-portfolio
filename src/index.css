@@ -50,9 +50,29 @@
     --container-color: hsl(240, 8%, 6%);
 }
 
+@layer base {
+  html { scroll-behavior: smooth; }
+
+  body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    font-family: var(--font-montserrat);
+  }
+
+  ul { list-style: none; }
+
+  a { text-decoration: none; }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-unbounded);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+}
+
 #blob-animate {
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
     background: linear-gradient(180deg, var(--first-color-alt) 20%, var(--first-color-light) 100%);
     border-radius: 50%;
     position: absolute;
