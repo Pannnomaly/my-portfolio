@@ -1,5 +1,18 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../src/assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Unbounded;
+    src: url("../src/assets/fonts/Unbounded-Regular.ttf");
+}
+
 @import "tailwindcss";
 
 @theme {
 
+    /* Fonts */
+    --font-montserrat: Montserrat, "sans-serif";
+    --font-unbounded: Unbounded, "sans-serif";
 }
