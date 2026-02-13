@@ -51,8 +51,8 @@
 }
 
 #blob-animate {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     background: linear-gradient(180deg, var(--first-color-alt) 20%, var(--first-color-light) 100%);
     border-radius: 50%;
     position: absolute;
