@@ -112,6 +112,30 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    #blob-animate-hero {
+        width: 450px;
+        height: 450px;
+        filter: blur(50px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #blob-animate-hero {
+        width: 750px;
+        height: 750px;
+        filter: blur(65px);
+    }
+
+    #shadow {
+        background: linear-gradient(180deg, hsla(240, 100%, 2%, 0) 60%, hsl(240, 100%, 2%) 95%);
+    }
+
+    #profession-2 {
+        transform: translateY(-1.5rem);
+    }
+}
+
 #shadow {
     background: linear-gradient(180deg, hsla(240, 100%, 2%, 0) 60%, hsl(240, 100%, 2%) 85%);
 }
