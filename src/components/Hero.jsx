@@ -1,5 +1,12 @@
+import { useEffect } from "react";
+import { heroTextAnimation } from "../lib/animations/heroTextAnimation.js";
+
 export default function Hero ()
 {
+    useEffect(() => {
+        heroTextAnimation();
+    }, []);
+
     return (
         <div className="w-full pt-20 relative">
             <div id="shadow" className="absolute w-full h-93.75 bottom-0 z-1"></div>

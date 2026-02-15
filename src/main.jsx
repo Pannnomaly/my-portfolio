@@ -6,7 +6,6 @@ import Error from "./pages/Error.jsx";
 import Layout from "./components/Layout.jsx";
 import Homepage from "./pages/Homepage.jsx";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
