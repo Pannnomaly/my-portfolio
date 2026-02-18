@@ -103,6 +103,18 @@
     animation: animateBlob 5s linear infinite;
 }
 
+#blob-animate-about {
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(180deg, var(--first-color-alt) 20%, var(--first-color-light) 100%);
+    border-radius: 50%;
+    position: absolute;
+    justify-self: center;
+    filter: blur(35px);
+    z-index: -1;
+    animation: animateBlob 5s linear infinite;
+}
+
 @keyframes animateBlob {
     0% {
         transform: rotate(0);
@@ -112,14 +124,22 @@
     }
 }
 
+/* vertical ipad size */
 @media screen and (min-width: 768px) {
     #blob-animate-hero {
         width: 450px;
         height: 450px;
         filter: blur(50px);
     }
+
+    #blob-animate-about {
+        width: 190px;
+        height: 190px;
+        filter: blur(50px);
+    }
 }
 
+/* horizontal ipad size */
 @media screen and (min-width: 1024px) {
     #blob-animate-hero {
         width: 750px;
@@ -127,7 +147,13 @@
         filter: blur(65px);
     }
 
-    #shadow {
+    #blob-animate-about {
+        width: 220px;
+        height: 220px;
+        filter: blur(50px);
+    }
+
+    #shadow-hero {
         background: linear-gradient(180deg, hsla(240, 100%, 2%, 0) 60%, hsl(240, 100%, 2%) 95%);
     }
 
@@ -136,7 +162,20 @@
     }
 }
 
-#shadow {
+/* desktop */
+@media screen and (min-width: 1280px) {
+    #about-container {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    #blob-animate-about {
+        width: 250px;
+        height: 250px;
+        filter: blur(50px);
+    }
+}
+
+#shadow-hero {
     background: linear-gradient(180deg, hsla(240, 100%, 2%, 0) 60%, hsl(240, 100%, 2%) 85%);
 }
 
@@ -165,4 +204,19 @@
 
 #cv {
     font: var(--font-medium) var(--small-font-size);
+}
+
+#button-cv {
+    border: 3px solid var(--first-color);
+    box-shadow: 0 8px 32px hsla(var(--hue), 60%, 64%, .5), inset 8px -8px 30px var(--first-color-alt-2);
+    font-weight: var(--font-semi-bold);
+    transition: box-shadow .4s;
+}
+
+#button-cv:hover {
+    box-shadow: 0 8px 48px hsla(var(--hue), 60%, 64%, .7), inset 8px -8px 30px var(--first-color-alt-2);
+}
+
+#shadow-about {
+    background: linear-gradient(180deg, hsla(240, 100%, 2%, 0) 60%, var(--body-color) 95%);
 }

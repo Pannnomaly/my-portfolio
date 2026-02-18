@@ -1,5 +1,6 @@
-import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar.jsx";
+import Hero from "@/components/Hero.jsx";
+import About from "@/components/About.jsx";
 
 export default function Homepage ()
 {
@@ -7,6 +8,7 @@ export default function Homepage ()
         <div className="min-h-screen">
             <Navbar />
             <Hero />
+            <About />
         </div>
     );
 }

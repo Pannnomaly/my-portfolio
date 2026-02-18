@@ -9,24 +9,24 @@ export default function Hero ()
 
     return (
         <div className="xl:min-h-screen w-full pt-20 relative md:flex md:justify-center">
-            <div id="shadow" className="absolute w-full h-93.75 bottom-0 z-1 lg:h-175"></div>
+            <div id="shadow-hero" className="absolute w-full h-93.75 bottom-0 z-1 lg:h-175"></div>
             <div className="p-4 m-4 w-full md:w-[90%] xl:w-[80%] relative pt-16 gap-y-12">
                 <div className="xl:absolute xl:top-72 xl:left-12 xl:z-2">
-                    <h3 className="text-[1.25rem] md:text-[1.75rem] lg:text-[2.25rem] font-normal text-(--first-color)">Hello, I'm</h3>
-                    <h1 className="text-[2rem] md:text-[2.5rem] lg:text-[3rem]">Supawith<br/>Jangtrakul</h1>
+                    <h3 className="text-[1.25rem] md:text-[1.75rem] lg:text-[2.25rem] xl:text-[2.5rem] font-normal text-(--first-color)">Hello, I'm</h3>
+                    <h1 className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem]">Supawith<br/>Jangtrakul</h1>
                 </div>
                 <div className="relative grid overflow-y-clip">
                     <div id="blob-animate-hero"></div>
                     <div className="flex justify-center mt-12">
-                        <img className="w-70 md:w-90 lg:w-130 xl:w-150 self-center" src="profile.PNG" alt="profile picture" />
+                        <img className="w-70 md:w-90 lg:w-120 xl:w-140 self-center" src="profile.PNG" alt="profile picture" />
                     </div>
                 </div>
                 <div className="absolute z-2 -bottom-10 md:-bottom-22  justify-self-center xl:top-72 xl:right-4">
-                    <h3 className="text-[1rem] md:text-[1.5rem] lg:text-[2rem] font-normal text-(--first-color)">Creative</h3>
-                    <h2 id="profession-1" className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.75rem] text-center overflow-hidden relative text-(--first-color) lg:text-start">Developer</h2>
-                    <h2 id="profession-2" className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.75rem] text-center overflow-hidden">& Designer</h2>
+                    <h3 className="text-[1rem] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.25rem] font-normal text-(--first-color)">Creative</h3>
+                    <h2 id="profession-1" className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.75rem] xl:text-[3rem] text-center overflow-hidden relative text-(--first-color) lg:text-start">Software</h2>
+                    <h2 id="profession-2" className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.75rem] xl:text-[3rem] text-center overflow-hidden">Developer</h2>
                 </div>
-                <div className="absolute z-2 top-70 self-center flex flex-col gap-y-3 xl:-bottom-86 xl:gap-y-6">
+                <div className="absolute z-2 top-70 self-center flex flex-col gap-y-3 xl:-bottom-68 xl:gap-y-6">
                     <a id="social" href="https://www.facebook.com/pann.supawith.jangtrakul" target="_blank">
                         <svg className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14 19H19V5H5V19H12V14H10V12H12V10.3458C12 9.00855 12.1392 8.52362 12.4007 8.03473C12.6622 7.54584 13.0458 7.16216 13.5347 6.9007C13.9174 6.69604 14.3922 6.57252 15.2217 6.51954C15.551 6.49851 15.9771 6.52533 16.5 6.6V8.5H16C15.0827 8.5 14.7042 8.54332 14.4779 8.66433C14.3376 8.73939 14.2394 8.83758 14.1643 8.97793C14.0433 9.20418 14 9.42853 14 10.3458V12H16.5L16 14H14V19ZM4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3Z"></path></svg>
                     </a>
