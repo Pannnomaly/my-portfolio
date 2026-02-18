@@ -142,8 +142,8 @@
 /* horizontal ipad size */
 @media screen and (min-width: 1024px) {
     #blob-animate-hero {
-        width: 750px;
-        height: 750px;
+        width: 450px;
+        height: 450px;
         filter: blur(65px);
     }
 
@@ -166,6 +166,12 @@
 @media screen and (min-width: 1280px) {
     #about-container {
         grid-template-columns: repeat(2, auto);
+    }
+
+    #blob-animate-hero {
+        width: 750px;
+        height: 750px;
+        filter: blur(65px);
     }
 
     #blob-animate-about {
