@@ -19,7 +19,7 @@ export default function About ()
                 </div>
                 <div className="relative justify-self-center xl:-order-1">
                     <div id="blob-animate-about" className="top-5 -left-8"></div>
-                    <div id="blob-animate-about" className="-right-8 bottom-0 lg:right-6 lg:bottom-16"></div>
+                    <div id="blob-animate-about" className="-right-8 bottom-0 lg:-right-18 lg:bottom-16 xl:right-6 xl:bottom-16"></div>
                     <div className="flex justify-center mt-12 xl:pr-24">
                         <img className="w-60 md:w-80 lg:w-110 xl:w-120 self-center" src="profile.PNG" alt="profile picture" />
                     </div>
