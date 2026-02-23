@@ -5,7 +5,7 @@ export default function About ()
             <div id="shadow-about" className="w-full h-64.5 absolute bottom-0 md:bottom-4 lg:bottom-7 xl:bottom-12 lg:h-150 z-1"></div>
             <div id="about-container" className="p-4 m-4 w-full md:w-[90%] xl:w-[80%] grid grid-cols-[398px] md:grid-cols-[749px] lg:grid-cols-[998px] xl:grid-cols-[1247px] xl:items-center xl:gap-x-22 xl:pt-8 justify-center pt-16 gap-y-12 overflow-y-clip">
                 <div className="md:text-center xl:text-start xl:z-2">
-                    <h2 className="mb-6 text-start md:text-center xl:text-start xl:z-2 text-[1.75rem] md:text-[2.25rem] lg:text-[2.75rem] xl:text-[3rem]">
+                    <h2 className="mb-6 text-start md:text-center xl:text-start xl:z-2 text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem]">
                         <span className="text-(--first-color)">Creativity</span>
                         <br /> Is My Passion
                     </h2>
