@@ -181,10 +181,6 @@
 
 /* desktop */
 @media screen and (min-width: 1280px) {
-    #about-container {
-        grid-template-columns: repeat(2, auto);
-    }
-
     #blob-animate-hero {
         width: 750px;
         height: 750px;
@@ -249,7 +245,7 @@
     place-items: center;
     width: 48px;
     height: 48px;
-    background-color: var(--body-color);
+    background-color: var(--container-color);
     border: 3px solid var(--first-color);
     border-radius: 50%;
     color: var(--title-color);
@@ -272,7 +268,7 @@
 }
 
 .custom-pagination .swiper-pagination-bullet {
-    background: #666;
+    background: var(--text-color-light);
     opacity: 1;
     width: 8px;
     height: 8px;

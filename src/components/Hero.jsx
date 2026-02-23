@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { heroTextAnimation } from "../lib/animations/heroTextAnimation.js";
+import Container from "../lib/container.jsx";
 
 export default function Hero ()
 {
@@ -8,9 +9,9 @@ export default function Hero ()
     }, []);
 
     return (
-        <div className="xl:min-h-screen w-full pt-20 relative md:flex md:justify-center">
-            <div id="shadow-hero" className="absolute w-full h-93.75 bottom-0 z-1 lg:h-175"></div>
-            <div className="p-4 m-4 w-full md:w-[90%] xl:w-[80%] relative pt-16 gap-y-12">
+        <div className="relative pt-20 xl:min-h-screen">
+            <div id="shadow-hero" className="absolute w-full h-93.75 bottom-0 md:-bottom-1 z-1 lg:h-175"></div>
+            <Container className="relative pt-16">
                 <div className="xl:absolute xl:top-72 xl:left-12 xl:z-2">
                     <h3 className="text-[1.25rem] md:text-[1.75rem] lg:text-[2.25rem] xl:text-[2.5rem] font-normal text-(--first-color)">Hello, I'm</h3>
                     <h1 className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem]">Supawith<br/>Jangtrakul</h1>
@@ -44,7 +45,7 @@ export default function Hero ()
                     <a className="md:text-[1.25rem] lg:text-[1.75rem]" href="src/assets/pdf/supawithCV.pdf" download target="_blank">RESUME</a>
                     <span><svg className="w-5 h-5 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M21 8V20.9932C21 21.5501 20.5552 22 20.0066 22H3.9934C3.44495 22 3 21.556 3 21.0082V2.9918C3 2.45531 3.4487 2 4.00221 2H14.9968L21 8ZM19 9H14V4H5V20H19V9ZM8 7H11V9H8V7ZM8 11H16V13H8V11ZM8 15H16V17H8V15Z"></path></svg></span>
                 </div>
-            </div>
+            </Container>
         </div>
     );
 }
