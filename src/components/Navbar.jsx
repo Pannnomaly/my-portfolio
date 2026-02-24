@@ -1,4 +1,4 @@
-import Container from "../lib/container.jsx";
+import Container from "../lib/Container.jsx";
 
 export default function Navbar() {
     return (

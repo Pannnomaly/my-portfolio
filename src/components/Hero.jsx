@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { heroTextAnimation } from "../lib/animations/heroTextAnimation.js";
-import Container from "../lib/container.jsx";
+import Container from "../lib/Container.jsx";
 
 export default function Hero ()
 {

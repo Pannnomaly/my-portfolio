@@ -1,5 +1,5 @@
-import ProjectSlider from "./ProjectSlider";
-import Container from "../lib/container.jsx";
+import ProjectSlider from "./ProjectSlider.jsx";
+import Container from "../lib/Container.jsx";
 
 export default function Projects ()
 {
