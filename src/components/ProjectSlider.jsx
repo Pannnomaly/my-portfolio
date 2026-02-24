@@ -12,11 +12,13 @@ export default function ProjectSlider() {
         <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={24}
-            slidesPerView={1}
+            slidesPerView="auto"
+            slidesPerGroup={1}
             centeredSlides={true}
-            centeredSlidesBounds={true}
             grabCursor
             speed={600}
+            watchSlidesProgress
+            resistanceRatio={0.85}
             navigation
             pagination={{
                 clickable: true,
@@ -27,14 +29,13 @@ export default function ProjectSlider() {
             disableOnInteraction: false,
             }}
             breakpoints={{
-                768: { slidesPerView: 1.5 },
-                1024: { slidesPerView: 2 },
+                768: {},
             }}
             className="project-swiper w-full"
         >
             {projects.map((project) =>(
-                <SwiperSlide key={project.id}>
-                    <article className="relative bg-(--container-color) p-6 rounded-[3rem] overflow-hidden">
+                <SwiperSlide key={project.id} className="w-full md:!w-[450px] lg:!w-[550px]">
+                    <article className="relative bg-(--container-color) p-6 rounded-[3rem] overflow-hidden px-4 md:p-8 lg:p-10 lg:rounded-[4rem]">
                         <div id="blob-animate-project"></div>
 
                         <div className="relative z-10 flex items-center justify-between">
@@ -49,16 +50,16 @@ export default function ProjectSlider() {
                         </div>
 
                         <div id="project-image" className="relative z-10">
-                            <img className="rounded-3xl" src={project.image} alt={project.title} />
+                            <img className="w-full h-full object-cover rounded-3xl lg:rounded-4xl" src={project.image} alt={project.title} />
                             <a id="project-button" href="#" target="_blank">
-                                <svg className="w-5 h-5 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>
+                                <svg className="w-5 h-5 md:w-7 md:h-7 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>
                             </a>
                         </div>
                     </article>
                 </SwiperSlide>
             ))}
         </Swiper>
-        <div className="custom-pagination mt-6 flex justify-center"></div>
+        <div className="custom-pagination mt-6 flex justify-center lg:pt-16"></div>
     </div>
   );
 }
