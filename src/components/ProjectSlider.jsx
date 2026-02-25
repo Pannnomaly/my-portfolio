@@ -60,7 +60,7 @@ export default function ProjectSlider() {
                 </SwiperSlide>
             ))}
         </Swiper>
-        <div className="custom-pagination mt-6 flex justify-center lg:pt-16"></div>
+        <div className="custom-pagination mt-6 flex justify-center lg:pt-8"></div>
     </div>
   );
 }
