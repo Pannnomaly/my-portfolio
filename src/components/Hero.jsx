@@ -42,7 +42,7 @@ export default function Hero ()
                     </a>
                 </div>
                 <div id="cv" className="absolute z-2 right-0 bottom-6 md:-bottom-4 lg:bottom-0 -rotate-90 xl:rotate-0 xl:right-0 xl:bottom-22 text-light hover:text-(--first-color) font-unbounded flex items-center gap-x-2 transition duration-400 ease-in-out cursor-pointer">
-                    <a className="md:text-[1.25rem] lg:text-[1.75rem]" href="src/assets/pdf/supawithCV.pdf" download target="_blank">RESUME</a>
+                    <a className="md:text-[1.25rem] lg:text-[1.75rem]" href="/pdf/supawithCV.pdf" download target="_blank">RESUME</a>
                     <span><svg className="w-5 h-5 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M21 8V20.9932C21 21.5501 20.5552 22 20.0066 22H3.9934C3.44495 22 3 21.556 3 21.0082V2.9918C3 2.45531 3.4487 2 4.00221 2H14.9968L21 8ZM19 9H14V4H5V20H19V9ZM8 7H11V9H8V7ZM8 11H16V13H8V11ZM8 15H16V17H8V15Z"></path></svg></span>
                 </div>
             </Container>
