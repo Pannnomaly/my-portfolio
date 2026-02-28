@@ -189,9 +189,9 @@
     }
 
     #work-card {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: 1fr 1fr;
         justify-content: center;
-        column-gap: 3rem;
+        column-gap: 4rem;
     }
     
     #work-line {

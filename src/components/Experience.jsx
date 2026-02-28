@@ -15,7 +15,7 @@ export default function Experience ()
                         <h2 className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem]">{experience.year}</h2>
                     </div>
 
-                    <p>{experience.description}</p>
+                    <p className="text-[1.25rem] md:text-[1.5rem]">{experience.description}</p>
                 </div>
             ))}
         </>

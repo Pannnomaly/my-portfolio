@@ -17,7 +17,7 @@ export default function Work ()
                 </h2>
 
                 <div>
-                    <div className="bg-(--container-color) mt-16 mb-10 py-5 px-8 rounded-[4rem] flex justify-between md:justify-self-center md:gap-x-25">
+                    <div className="bg-(--container-color) mt-16 mb-10 lg:mt-20 lg:mb-14 xl:mt-22 xl:mb-18 py-5 px-8 rounded-[4rem] flex justify-between md:justify-self-center md:gap-x-25">
                         <ToggleButton
                         onClick={() => {
                             setView("experience");
