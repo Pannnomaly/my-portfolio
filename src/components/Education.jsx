@@ -5,7 +5,7 @@ export default function Education ()
     return (
         <>
             {educations.map((education) => (
-                <div id="work-card" key={education.id} className="relative grid lg:grid-cols-2 lg:gap-x-20 gap-y-4 lg:gap-y-6 items-start">
+                <div id="work-card" key={education.id} className="grid gap-y-4">
                     <div className="flex justify-between">
                         <div className="lg:text-right">
                             <h1 className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.5rem] mb-2">{education.title}</h1>
