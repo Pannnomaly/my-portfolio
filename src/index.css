@@ -187,6 +187,18 @@
         width: 350px;
         height: 350px;
     }
+
+    #work-card {
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        column-gap: 3rem;
+    }
+    
+    #work-line {
+        left: 0;
+        right: 0;
+        margin-inline: auto;
+    }
 }
 
 /* desktop */
@@ -306,4 +318,19 @@
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
     opacity: 1;
+}
+
+#work-line {
+    background: linear-gradient(180deg, hsla(var(--hue), 60%, 64%, 0), var(--first-color-alt-2));
+}
+
+#work-line::after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-color: var(--first-color-alt-2);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -1px;
+    left: -6px;
 }
