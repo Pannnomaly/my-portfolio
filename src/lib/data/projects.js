@@ -3,7 +3,7 @@ export const projects = [
         id: 1,
         number: "01",
         category: "Full - Stack Web",
-        title: "Nextzy Gamification Test",
+        title: "Gamification Test",
         tech: [
         "Next.js",
         "TypeScript",
