@@ -10,7 +10,7 @@ export default function Developer ()
         <div className="relative bg-(--container-color) py-8 px-6 rounded-[3rem] grid gap-y-1 overflow-hidden">
             <div className="blob-animate-service"></div>
 
-            <div className="relative z-1 p-4 lg:p-8">
+            <div className="relative z-1 p-2 md:p-4 lg:p-8">
                 <h2 className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.5rem] mb-4">Developer</h2>
                 <p className="text-[1.25rem] md:text-[1.5rem]">Website creation with HTML5, CSS3, Tailwind CSS, JavaScript.
                     Professional Full - Stack websites with React, Node.js, Express.js, MongoDB (MERN Stack), and lots of creativity.
@@ -24,7 +24,7 @@ export default function Developer ()
                         animate={{ opacity: 1, height: "auto" }}
                         exit={{ opacity: 0, height: 0 }}
                         transition={{ duration: 0.4 }}
-                        className="relative z-1 overflow-hidden px-4 lg:px-8"
+                        className="relative z-1 overflow-hidden px-2 md:px-4 lg:px-8"
                     >
                         <h3 className="text-(--text-color) font-normal text-[1.25rem] md:text-[1.5rem] mb-3">Skills & Tools</h3>
                     

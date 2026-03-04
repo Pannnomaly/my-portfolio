@@ -36,7 +36,7 @@ export default function ProjectSlider() {
         >
             {projects.map((project) =>(
                 <SwiperSlide key={project.id} className="w-full md:!w-[450px] lg:!w-[550px] !h-auto flex">
-                    <article className="relative bg-(--container-color) p-6 rounded-[3rem] overflow-hidden px-4 md:p-8 lg:p-10 lg:rounded-[4rem] flex flex-col w-full h-full">
+                    <article className="relative bg-(--container-color) p-6 rounded-[3rem] overflow-hidden px-7 md:p-9 lg:p-10 lg:rounded-[4rem] flex flex-col w-full h-full">
                         <div id="blob-animate-project"></div>
 
                         <div className="relative z-10 flex items-center justify-between">
