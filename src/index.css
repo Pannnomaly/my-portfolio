@@ -383,6 +383,11 @@
 
 #service-skill-lists {
     border: 1px solid var(--title-color);
+    transition: all 0.4s ease-in-out;
+}
+
+#service-skill-lists:hover {
+    border: 1px solid var(--first-color);
 }
 
 #service-button {
