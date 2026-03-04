@@ -132,6 +132,28 @@
     bottom: 0;
 }
 
+.blob-animate-service {
+    width: 330px;
+    height: 330px;
+    background: linear-gradient(180deg, var(--first-color-alt) 0%, var(--first-color-light) 100%);
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(65px);
+    z-index: -1;
+    animation: animateBlob 5s linear infinite;
+}
+
+.blob-animate-service {
+    z-index: 0;
+    top: -7.75rem;
+    left: -7.75rem;
+}
+
+#design-card .blob-animate-service-2 {
+    left: initial;
+    right: -7.75rem;
+}
+
 @keyframes animateBlob {
     0% {
         transform: rotate(0);
@@ -333,4 +355,16 @@
     position: absolute;
     bottom: -1px;
     left: -6px;
+}
+
+#service-skill-lists {
+    border: 1px solid var(--title-color);
+}
+
+#service-button {
+    border: 2px solid var(--first-color);
+}
+
+#service-button svg {
+    transition: rotate .4s;
 }
