@@ -7,10 +7,10 @@ export default function Design ()
     const [open, setOpen] = useState(false);
 
     return (
-        <div id="design-card" className="relative bg-(--container-color) py-8 px-6 rounded-[3rem] grid gap-y-4 overflow-hidden">
+        <div id="design-card" className="relative bg-(--container-color) py-8 px-6 rounded-[3rem] grid gap-y-1 overflow-hidden">
             <div className="blob-animate-service blob-animate-service-2"></div>
 
-            <div className="relative z-1">
+            <div className="relative z-1 p-4 lg:p-8">
                 <h2 className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.5rem] mb-4">Design</h2>
                 <p className="text-[1.25rem] md:text-[1.5rem]">Web designer with Canva and Figma, creating graphic designs with Procreate, creativity and design at its best.</p>
             </div>
@@ -35,7 +35,7 @@ export default function Design ()
                 )}
             </AnimatePresence>
 
-            <div className="flex justify-end">
+            <div className="flex justify-end px-4 lg:px-6">
                 <button onClick={() => setOpen(!open)} className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 shrink-0 rounded-lg z-2 cursor-pointer">
                     <motion.svg
                         id="service-button"

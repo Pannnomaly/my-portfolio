@@ -133,8 +133,8 @@
 }
 
 .blob-animate-service {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     background: linear-gradient(180deg, var(--first-color-alt) 0%, var(--first-color-light) 100%);
     border-radius: 50%;
     position: absolute;
@@ -178,8 +178,8 @@
     }
 
     .blob-animate-service {
-        width: 280px;
-        height: 280px;
+        width: 330px;
+        height: 330px;
         filter: blur(50px);
     }
 }
@@ -199,8 +199,8 @@
     }
 
     .blob-animate-service {
-        width: 300px;
-        height: 300px;
+        width: 360px;
+        height: 360px;
         filter: blur(65px);
     }
 
@@ -261,8 +261,8 @@
     }
 
     .blob-animate-service {
-        width: 330px;
-        height: 330px;
+        width: 400px;
+        height: 400px;
         filter: blur(65px);
     }
 }
