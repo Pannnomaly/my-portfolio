@@ -7,7 +7,7 @@ export default function Design ()
     const [open, setOpen] = useState(false);
 
     return (
-        <div id="design-card" className="relative bg-(--container-color) py-8 px-6 rounded-[3rem] grid gap-y-6 overflow-hidden">
+        <div id="design-card" className="relative bg-(--container-color) py-8 px-6 rounded-[3rem] grid gap-y-4 overflow-hidden">
             <div className="blob-animate-service blob-animate-service-2"></div>
 
             <div className="relative z-1">
@@ -28,26 +28,28 @@ export default function Design ()
                                 
                         <ul className="flex flex-wrap items-center gap-y-2 gap-x-2">
                             {designs.map((design) => (
-                                <li key={design.id} id="service-skill-lists" className="text-[1rem] md:text-[1.25rem] bg-(--container-color) text-(--title-color) py-1 px-2.5 rounded-[4rem] font-unbounded">{design.name}</li>
+                                <li key={design.id} id="service-skill-lists" className="text-[1rem] md:text-[1.25rem] bg-(--container-color) text-(--title-color) py-1 px-2.5 rounded-[4rem] font-unbounded cursor-pointer hover:text-(--first-color) transition duration-400 ease-in-out">{design.name}</li>
                             ))}
                         </ul>
                     </motion.div>
                 )}
             </AnimatePresence>
 
-            <button onClick={() => setOpen(!open)} className="grid place-items-center w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 shrink-0 rounded-lg absolute right-8 bottom-6 lg:bottom-4 z-2 cursor-pointer">
-                <motion.svg
-                    id="service-button"
-                    animate={{ rotate: open ? 180 : 0 }}
-                    transition={{ duration: 0.3 }}
-                    className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 text-(--title-color) hover:text-(--first-color) transition duration-400 ease-in-out rounded-lg"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                >
-                    <path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"/>
-                </motion.svg>
-            </button>
+            <div className="flex justify-end">
+                <button onClick={() => setOpen(!open)} className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 shrink-0 rounded-lg z-2 cursor-pointer">
+                    <motion.svg
+                        id="service-button"
+                        animate={{ rotate: open ? 180 : 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 text-(--title-color) hover:text-(--first-color) transition duration-400 ease-in-out rounded-lg"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                    >
+                        <path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"/>
+                    </motion.svg>
+                </button>
+            </div>
         </div>
     );
 }
