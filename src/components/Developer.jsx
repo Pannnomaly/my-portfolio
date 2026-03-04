@@ -24,7 +24,7 @@ export default function Developer ()
                         animate={{ opacity: 1, height: "auto" }}
                         exit={{ opacity: 0, height: 0 }}
                         transition={{ duration: 0.4 }}
-                        className="relative z-1 overflow-hidden"
+                        className="relative z-1 overflow-hidden px-4 lg:px-8"
                     >
                         <h3 className="text-(--text-color) font-normal text-[1.25rem] md:text-[1.5rem] mb-3">Skills & Tools</h3>
                     
