@@ -24,7 +24,7 @@ export default function Design ()
                         transition={{ duration: 0.4 }}
                         className="relative z-1 overflow-hidden"
                     >
-                        <h3 className="text-(--text-color) font-normal text-[1.25rem] md:text-[1.5rem] mb-2">Skills & Tools</h3>
+                        <h3 className="text-(--text-color) font-normal text-[1.25rem] md:text-[1.5rem] mb-3">Skills & Tools</h3>
                                 
                         <ul className="flex flex-wrap items-center gap-y-2 gap-x-2">
                             {designs.map((design) => (
