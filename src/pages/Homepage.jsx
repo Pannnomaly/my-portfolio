@@ -3,6 +3,7 @@ import Hero from "@/components/Hero.jsx";
 import About from "@/components/About.jsx";
 import Projects from "@/components/Projects.jsx";
 import Work from "@/components/Work.jsx";
+import Services from "@/components/Services.jsx";
 
 export default function Homepage ()
 {
@@ -13,6 +14,7 @@ export default function Homepage ()
             <About />
             <Projects />
             <Work />
+            <Services />
         </div>
     );
 }
