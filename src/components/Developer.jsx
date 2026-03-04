@@ -37,12 +37,12 @@ export default function Developer ()
                 )}
             </AnimatePresence>
 
-            <button onClick={() => setOpen(!open)} className="grid place-items-center w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 shrink-0 rounded-lg bg-(--body-color) absolute right-8 bottom-6 lg:bottom-4 z-2 cursor-pointer">
+            <button onClick={() => setOpen(!open)} className="grid place-items-center w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 shrink-0 rounded-lg absolute right-8 bottom-6 lg:bottom-4 z-2 cursor-pointer">
                 <motion.svg
                     id="service-button"
                     animate={{ rotate: open ? 180 : 0 }}
                     transition={{ duration: 0.3 }}
-                    className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 text-(--title-color) rounded-lg"
+                    className="w-9 h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 text-(--title-color) hover:text-(--first-color) transition duration-400 ease-in-out rounded-lg"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"

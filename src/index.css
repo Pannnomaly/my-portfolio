@@ -133,8 +133,8 @@
 }
 
 .blob-animate-service {
-    width: 330px;
-    height: 330px;
+    width: 250px;
+    height: 250px;
     background: linear-gradient(180deg, var(--first-color-alt) 0%, var(--first-color-light) 100%);
     border-radius: 50%;
     position: absolute;
@@ -176,6 +176,12 @@
         height: 190px;
         filter: blur(50px);
     }
+
+    .blob-animate-service {
+        width: 280px;
+        height: 280px;
+        filter: blur(50px);
+    }
 }
 
 /* horizontal ipad size */
@@ -190,6 +196,12 @@
         width: 220px;
         height: 220px;
         filter: blur(50px);
+    }
+
+    .blob-animate-service {
+        width: 300px;
+        height: 300px;
+        filter: blur(65px);
     }
 
     #shadow-hero {
@@ -221,6 +233,12 @@
         right: 0;
         margin-inline: auto;
     }
+
+    #service-card {
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        column-gap: 1rem;
+    }
 }
 
 /* desktop */
@@ -240,6 +258,12 @@
     #blob-animate-project {
         width: 375px;
         height: 375px;
+    }
+
+    .blob-animate-service {
+        width: 330px;
+        height: 330px;
+        filter: blur(65px);
     }
 }
 

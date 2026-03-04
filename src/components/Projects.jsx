@@ -10,7 +10,8 @@ export default function Projects ()
                     I make Incredible <br />
                     <span className="text-(--first-color)">Projects</span>
                 </h2>
-                <div className="mt-12">
+
+                <div className="mt-16 mb-10 lg:mt-20 lg:mb-14 xl:mt-22 xl:mb-18">
                     <ProjectSlider />
                 </div>
             </Container>

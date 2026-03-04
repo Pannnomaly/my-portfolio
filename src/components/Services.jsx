@@ -11,7 +11,7 @@ export default function Services ()
                     What I <span className="text-(--first-color)">Offer</span>
                 </h2>
 
-                <div className="gap-y-8">
+                <div id="service-card" className="flex flex-col lg:grid lg:items-start gap-y-4 mt-16 mb-10 lg:mt-20 lg:mb-14 xl:mt-22 xl:mb-18">
                     <Developer />
                     <Design />
                 </div>
