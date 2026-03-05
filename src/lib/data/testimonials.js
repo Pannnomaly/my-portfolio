@@ -1,0 +1,32 @@
+export const testimonials = [
+    {
+        id: 1,
+        image: "testimonial001.PNG",
+        alt: "image-1",
+        name: "Cyber Ace",
+        star: "1",
+        halfStar: "1",
+        allStar: "1.5",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae id illo maiores maxime laboriosam, tenetur vero architecto in. Deserunt odit blanditiis nostrum qui consectetur non quos placeat ex cupiditate!",
+    },
+    {
+        id: 2,
+        image: "testimonial002.PNG",
+        alt: "image-2",
+        name: "Ace Only Online",
+        star: "5",
+        halfStar: "0",
+        allStar: "5",
+        description: "description002",
+    },
+    {
+        id: 3,
+        image: "testimonial003.PNG",
+        alt: "image-3",
+        name: "Ace",
+        star: "3",
+        halfStar: "1",
+        allStar: "3.5",
+        description: "description003",
+    },
+];
