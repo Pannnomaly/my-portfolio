@@ -9,11 +9,11 @@ export default function About ()
                 <div className="grid gap-y-12 xl:grid-cols-2 xl:items-center xl:gap-x-20">
                     <div className="md:text-center xl:text-start xl:z-2">
                         <h2 className="mb-6 text-start md:text-center xl:text-start xl:z-2 text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem]">
-                            <span className="text-(--first-color)">Creativity</span>
-                            <br /> Is My Passion
+                            <span className="text-(--first-color)">Where Creativity</span>
+                            <br />Meets Code
                         </h2>
                         <p className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] mb-8 xl:mb-12">
-                            I'm a <b className="text-(--first-color) font-semi-bold">Junior Software Developer</b> passionate about experimenting with new <b className="text-(--first-color) font-semi-bold">skill and creativity.</b> Driven by learning and curiosity, I'm always looking to explore and learn new development skills.
+                            I am a <b className="text-(--first-color) font-semi-bold text-shadow-lg">Junior Full-Stack Developer</b> passionate about building modern and creative digital experiences. Driven by <b className="text-(--first-color) font-semi-bold text-shadow-lg">curiosity and continuous learning,</b> I enjoy experimenting with new technologies and turning ideas into real, functional products.
                         </p>
                         <div id="button-cv" className="cursor-pointer bg-(--body-color) text-(--title-color) py-4 px-8 rounded-[4rem] font-unbounded inline-flex items-center gap-x-2">
                             <a className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] transition duration-400 ease-in-out" href="/pdf/supawithCV.pdf" download target="_blank">Resume</a>

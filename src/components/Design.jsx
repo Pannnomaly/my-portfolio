@@ -12,7 +12,9 @@ export default function Design ()
 
             <div className="relative z-1 p-2 md:p-4 lg:p-8">
                 <h2 className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.5rem] mb-4">Design</h2>
-                <p className="text-[1.25rem] md:text-[1.5rem]">Web designer with Canva and Figma, creating graphic designs with Procreate, creativity and design at its best.</p>
+                <p className="text-[1.25rem] md:text-[1.5rem]">
+                    I create <b className="text-(--first-color) font-semi-bold text-shadow-lg">clean and modern</b> visual designs that focus on <b className="text-(--first-color) font-semi-bold text-shadow-lg">creativity and user experience.</b> From UI layouts to digital graphics, I turn ideas into visually engaging designs.
+                </p>
             </div>
 
             <AnimatePresence>
