@@ -28,6 +28,7 @@ export default function ProjectSlider() {
             autoplay={{
             delay: 4000,
             disableOnInteraction: false,
+            pauseOnMouseEnter: true,
             }}
             breakpoints={{
                 768: {},

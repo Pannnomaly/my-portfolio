@@ -154,6 +154,25 @@
     right: -7.75rem;
 }
 
+#blob-animate-testimonial {
+    width: 280px;
+    height: 280px;
+    background: linear-gradient(180deg, var(--first-color-alt) 20%, var(--first-color-light) 100%);
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(35px);
+    z-index: -1;
+    animation: animateBlob 5s linear infinite;
+}
+
+#blob-animate-testimonial {
+    z-index: 0;
+    left: 0;
+    right: 0;
+    bottom: -12.5rem;
+    margin-inline: auto;
+}
+
 @keyframes animateBlob {
     0% {
         transform: rotate(0);
