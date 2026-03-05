@@ -7,7 +7,7 @@ export const testimonials = [
         star: "1",
         halfStar: "1",
         allStar: "1.5",
-        description: "description001",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae id illo maiores maxime laboriosam, tenetur vero architecto in. Deserunt odit blanditiis nostrum qui consectetur non quos placeat ex cupiditate!",
     },
     {
         id: 2,

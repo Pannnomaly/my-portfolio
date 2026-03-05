@@ -1,13 +1,14 @@
 import { testimonials } from "../lib/data/testimonials.js";
+import Marquee from "react-fast-marquee";
 
 export default function TestimonialSlider ()
 {
     return (
-        <div>
+        <Marquee autoFill speed={50} pauseOnHover={true} gradient={false}>
             {testimonials.map((testimonial) => (
-                <article key={testimonial.id} className="relative w-full bg-(--container-color) pt-6 px-6 pb-10 rounded-[3rem] text-center overflow-hidden">
+                <article key={testimonial.id} className="relative w-[320px] md:!w-[450px] lg:!w-[550px] !h-auto mx-4 bg-(--container-color) pt-6 px-6 pb-10 rounded-[3rem] text-center overflow-hidden cursor-pointer">
                     <div id="blob-animate-testimonial"></div>
-            
+                    
                     <div className="relative z-1">
                         <img className="w-50 object-fill rounded-3xl lg:rounded-4xl mt-0 mx-auto mb-2" src={testimonial.image} alt={testimonial.alt} />
                         <h2 className="font-normal text-[1.75rem] md:text-[2.25rem] lg:text-[2.5rem] mb-4">{testimonial.name}</h2>
@@ -29,6 +30,6 @@ export default function TestimonialSlider ()
                     </div>
                 </article>
             ))}
-        </div>
+        </Marquee>
     );
 }
