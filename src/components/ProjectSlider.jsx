@@ -48,7 +48,7 @@ export default function ProjectSlider() {
                         <div className="relative z-10 my-8 flex-1">
                             <h1 className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.5rem] mb-4">{project.title}</h1>
                             <p className="font-unbounded text-[1.25rem] md:text-[1.5rem] mb-2">Technologies used</p>
-                            <p className="text-[1.25rem] md:text-[1.5rem]">{project.tech.join(", ")}</p>
+                            <p className="text-shadow-lg text-[1.25rem] md:text-[1.5rem]">{project.tech.join(", ")}</p>
                         </div>
 
                         <div id="project-image" className="relative z-10 aspect-video overflow-hidden">
