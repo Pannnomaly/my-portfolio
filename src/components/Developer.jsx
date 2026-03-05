@@ -11,9 +11,10 @@ export default function Developer ()
             <div className="blob-animate-service"></div>
 
             <div className="relative z-1 p-2 md:p-4 lg:p-8">
-                <h2 className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.5rem] mb-4">Developer</h2>
-                <p className="text-[1.25rem] md:text-[1.5rem]">Website creation with HTML5, CSS3, Tailwind CSS, JavaScript.
-                    Professional Full - Stack websites with React, Node.js, Express.js, MongoDB (MERN Stack), and lots of creativity.
+                <h2 className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.5rem] mb-4">Web Development</h2>
+                <p className="text-[1.25rem] md:text-[1.5rem]">
+                    I am a <b className="text-(--first-color) font-semi-bold text-shadow-lg">Junior Full-Stack Developer</b> who builds modern, scalable web applications from frontend to backend. <br />
+                    I focus on <b className="text-(--first-color) font-semi-bold text-shadow-lg">performance, clean code, and intuitive user experiences.</b> Turning ideas into functional and creative digital products.
                 </p>
             </div>
 

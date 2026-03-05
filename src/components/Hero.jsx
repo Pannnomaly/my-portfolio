@@ -13,7 +13,7 @@ export default function Hero ()
             <div id="shadow-hero" className="absolute w-full h-93.75 bottom-0 md:-bottom-1 z-1 lg:h-175"></div>
             <Container className="relative pt-16">
                 <div className="xl:absolute xl:top-72 xl:left-12 xl:z-2">
-                    <h3 className="text-[1.25rem] md:text-[1.75rem] lg:text-[2.25rem] xl:text-[2.5rem] font-normal text-(--first-color)">Hello, I'm</h3>
+                    <h3 className="text-[1.25rem] md:text-[1.75rem] lg:text-[2.25rem] xl:text-[2.5rem] font-normal text-(--first-color)">Hello, I am</h3>
                     <h1 className="text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem]">Supawith<br/>Jangtrakul</h1>
                 </div>
                 <div className="relative grid overflow-y-clip">
@@ -24,7 +24,7 @@ export default function Hero ()
                 </div>
                 <div className="absolute z-2 -bottom-10 md:-bottom-22  justify-self-center xl:top-72 xl:right-4">
                     <h3 className="text-[1rem] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.25rem] font-normal text-(--first-color)">Creative</h3>
-                    <h2 id="profession-1" className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.75rem] xl:text-[3rem] text-center overflow-hidden relative text-(--first-color) lg:text-start">Software</h2>
+                    <h2 id="profession-1" className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.75rem] xl:text-[3rem] text-center overflow-hidden relative text-(--first-color) lg:text-start">Full-Stack</h2>
                     <h2 id="profession-2" className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.75rem] xl:text-[3rem] text-center overflow-hidden">Developer</h2>
                 </div>
                 <div className="absolute z-2 top-70 self-center flex flex-col gap-y-3 xl:-bottom-68 xl:gap-y-6">
