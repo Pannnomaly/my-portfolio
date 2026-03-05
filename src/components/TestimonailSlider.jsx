@@ -6,7 +6,7 @@ export default function TestimonialSlider ()
     return (
         <Marquee autoFill speed={50} pauseOnHover={true} gradient={false}>
             {testimonials.map((testimonial) => (
-                <article key={testimonial.id} className="relative w-[320px] md:!w-[450px] lg:!w-[550px] !h-auto mx-4 bg-(--container-color) pt-6 px-6 pb-10 rounded-[3rem] text-center overflow-hidden cursor-pointer">
+                <article key={testimonial.id} className="relative flex flex-col w-[350px] md:!w-[450px] lg:!w-[550px] mx-4 bg-(--container-color) pt-6 px-6 pb-10 rounded-[3rem] text-center overflow-hidden cursor-pointer">
                     <div id="blob-animate-testimonial"></div>
                     
                     <div className="relative z-1">
@@ -26,7 +26,7 @@ export default function TestimonialSlider ()
                             <h3 className="text-[1.75rem] md:text-[2rem] lg:text-[2.25rem]">{testimonial.allStar}</h3>
                         </div>
                         
-                        <p className="text-[1.25rem] md:text-[1.5rem]">{testimonial.description}</p>
+                        <p className="flex-1 text-[1.25rem] md:text-[1.5rem] h-[120px] md:h-[140px] lg:h-[170px] overflow-hidden text-ellipsis line-clamp-4 lg:line-clamp-5">{testimonial.description}</p>
                     </div>
                 </article>
             ))}
