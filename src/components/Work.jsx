@@ -9,7 +9,7 @@ export default function Work ()
     const [view, setView] = useState("experience");
 
     return (
-        <div className="pt-20 xl:min-h-screen lg:pt-36 lg:pb-16">
+        <div className="pt-20 xl:min-h-screen md:pt-36 md:pb-16">
             <Container>
                 <h2 className="text-center text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem]">
                     <span className="text-(--first-color)">My Work</span>
