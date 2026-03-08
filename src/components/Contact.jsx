@@ -5,7 +5,7 @@ export default function Contact ()
     return (
         <div className="pt-20 xl:min-h-screen lg:pt-36">
             <Container>
-                <div className="grid gap-y-16 pb-8">
+                <div className="grid gap-y-16 pb-8 lg:gap-y-32">
                     <div className="text-center">
                         <h2 className="mb-4 text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem]">Contact Me</h2>
 
@@ -20,65 +20,65 @@ export default function Contact ()
                         </div>
                     </div>
 
-                    <div className="grid gap-y-12">
-                        <div className="gap-y-4">
+                    <div id="contact-card" className="grid gap-y-12">
+                        <div className="gap-y-4 lg:justify-self-start lg:gap-y-6">
                             <div className="mb-4">
-                                <h3 className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-(--first-color) text-center mb-2">Email</h3>
+                                <h3 className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-(--first-color) text-center mb-2 lg:mb-3">Email</h3>
                                 <address className="text-(--title-color) not-italic font-medium text-center text-[1.25rem] md:text-[1.5rem]">s.jangtrakul@gmail.com</address>
                             </div>
 
                             <div>
-                                <h3 className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-(--first-color) text-center mb-2">Location</h3>
+                                <h3 className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-(--first-color) text-center mb-2 lg:mb-3">Location</h3>
                                 <address className="text-(--title-color) not-italic font-medium text-center text-[1.25rem] md:text-[1.5rem]">Bangkok, Thailand</address>
                             </div>
                         </div>
 
                         <div>
-                            <h3 className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-(--first-color) text-center mb-2">Social Media</h3>
+                            <h3 className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-(--first-color) text-center mb-2 lg:mb-3">Social Media</h3>
 
                             <div className="grid grid-cols-[max-content] justify-center gap-y-1">
-                                <a id="contact-link" className="flex items-center text-[1.25rem] md:text-[1.5rem] text-(--title-color) font-medium justify-between gap-x-2" href="https://www.linkedin.com/in/supawith-jangtrakul-8920173a4/" target="_blank">
+                                <a id="contact-link" className="flex items-center text-[1.25rem] md:text-[1.5rem] text-(--title-color) font-medium justify-between gap-x-2 lg:gap-x-4" href="https://www.linkedin.com/in/supawith-jangtrakul-8920173a4/" target="_blank">
                                     <span>LinkedIn</span>
                                     <svg className="w-6 h-6 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0 font-normal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>
                                 </a>
 
-                                <a className="flex items-center" href="#" target="_blank">
+                                <a id="contact-link" className="flex items-center text-[1.25rem] md:text-[1.5rem] text-(--title-color) font-medium justify-between gap-x-2 lg:gap-x-4" href="#" target="_blank">
                                     <span>Jobsdb</span>
                                     <svg className="w-6 h-6 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0 font-normal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>
                                 </a>
                                     
-                                <a className="flex items-center" href="https://www.fiverr.com/pannnomaly/" target="_blank">
+                                <a id="contact-link" className="flex items-center text-[1.25rem] md:text-[1.5rem] text-(--title-color) font-medium justify-between gap-x-2 lg:gap-x-4" href="https://www.fiverr.com/pannnomaly/" target="_blank">
                                     <span>Fiverr</span>
                                     <svg className="w-6 h-6 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0 font-normal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>
                                 </a>
 
-                                <a className="flex items-center" href="#" target="_blank">
+                                <a id="contact-link" className="flex items-center text-[1.25rem] md:text-[1.5rem] text-(--title-color) font-medium justify-between gap-x-2 lg:gap-x-4" href="#" target="_blank">
                                     <span>Etsy</span>
                                     <svg className="w-6 h-6 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0 font-normal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>
                                 </a>
 
-                                <a className="flex items-center" href="https://github.com/Pannnomaly" target="_blank">
+                                <a id="contact-link" className="flex items-center text-[1.25rem] md:text-[1.5rem] text-(--title-color) font-medium justify-between gap-x-2 lg:gap-x-4" href="https://github.com/Pannnomaly" target="_blank">
                                     <span>GitHub</span>
                                     <svg className="w-6 h-6 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0 font-normal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>
                                 </a>
                             </div>
                         </div>
 
-                        <div>
-                            <h3 className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-(--first-color) text-center mb-2">Write Me & We will Talk</h3>
+                        <div className="lg:justify-self-end">
+                            <h3 className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-(--first-color) text-center mb-2 lg:mb-3">Write Me & We will Talk</h3>
 
                             <div className="grid grid-cols-[max-content] justify-center gap-y-1">
-                                <a className="flex items-center" href="https://www.facebook.com/pann.supawith.jangtrakul" target="_blank">
+                                <a id="contact-link" className="flex items-center text-[1.25rem] md:text-[1.5rem] text-(--title-color) font-medium justify-between gap-x-2 lg:gap-x-4" href="https://www.facebook.com/pann.supawith.jangtrakul" target="_blank">
                                     <span>Facebook</span>
                                     <svg className="w-6 h-6 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0 font-normal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>
                                 </a>
 
-                                <a className="flex items-center" href="#" target="_blank">
+                                <a id="contact-link" className="flex items-center text-[1.25rem] md:text-[1.5rem] text-(--title-color) font-medium justify-between gap-x-2 lg:gap-x-4" href="#" target="_blank">
                                     <span>Instagram</span>
                                     <svg className="w-6 h-6 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0 font-normal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>
                                 </a>
 
-                                <a className="flex items-center" href="#" target="_blank">
+                                <a id="contact-link" className="flex items-center text-[1.25rem] md:text-[1.5rem] text-(--title-color) font-medium justify-between gap-x-2 lg:gap-x-4" href="#" target="_blank">
                                     <span>Steam</span>
                                     <svg className="w-6 h-6 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0 font-normal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>
                                 </a>
