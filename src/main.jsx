@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import Error from "./pages/Error.jsx";
 import Layout from "./components/Layout.jsx";
 import Homepage from "./pages/Homepage.jsx";
+import ToBeContinued from "./pages/ToBeContinued.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,8 @@ const router = createBrowserRouter([
       {
         element: <Layout />,
         children: [
-          { index: true, element: <Homepage /> }
+          { index: true, element: <Homepage /> },
+          { path: "/tbc", element: <ToBeContinued /> },
         ],
       },
     ],
