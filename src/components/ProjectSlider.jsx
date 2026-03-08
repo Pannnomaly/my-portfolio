@@ -53,7 +53,7 @@ export default function ProjectSlider() {
 
                         <div id="project-image" className="relative z-10 aspect-video overflow-hidden">
                             <img className="w-full h-full object-fill rounded-3xl lg:rounded-4xl" src={project.image} alt={project.title} />
-                            <a id="project-button" href={project.link} target="_blank">
+                            <a id="project-button" href={project.link} target="_blank" rel="noopener noreferrer">
                                 <svg className="w-5 h-5 md:w-7 md:h-7 shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>
                             </a>
                         </div>
