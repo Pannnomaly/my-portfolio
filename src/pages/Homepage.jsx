@@ -5,6 +5,7 @@ import Projects from "@/components/Projects.jsx";
 import Work from "@/components/Work.jsx";
 import Services from "@/components/Services.jsx";
 import Testimonial from "@/components/Testimonial.jsx";
+import Contact from "@/components/Contact.jsx";
 
 export default function Homepage ()
 {
@@ -17,6 +18,7 @@ export default function Homepage ()
             <Work />
             <Services />
             <Testimonial />
+            <Contact />
         </div>
     );
 }
