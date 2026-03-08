@@ -9,7 +9,7 @@ export default function Contact ()
                     <div className="text-center">
                         <h2 className="mb-4 text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem]">Contact Me</h2>
 
-                        <p className="font-unbounded mb-6">
+                        <p className="font-unbounded mb-6 text-[1.25rem] md:text-[1.5rem]">
                             Tell me about your next project.
                         </p>
 
@@ -20,24 +20,24 @@ export default function Contact ()
                         </div>
                     </div>
 
-                    <div>
-                        <div>
-                            <div>
-                                <h3>Email</h3>
-                                <address>s.jangtrakul@gmail.com</address>
+                    <div className="grid gap-y-12">
+                        <div className="gap-y-4">
+                            <div className="mb-4">
+                                <h3 className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-(--first-color) text-center mb-2">Email</h3>
+                                <address className="text-(--title-color) not-italic font-medium text-center text-[1.25rem] md:text-[1.5rem]">s.jangtrakul@gmail.com</address>
                             </div>
 
                             <div>
-                                <h3>Location</h3>
-                                <address>Bangkok, Thailand</address>
+                                <h3 className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-(--first-color) text-center mb-2">Location</h3>
+                                <address className="text-(--title-color) not-italic font-medium text-center text-[1.25rem] md:text-[1.5rem]">Bangkok, Thailand</address>
                             </div>
                         </div>
 
                         <div>
-                            <h3>Social Media</h3>
+                            <h3 className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-(--first-color) text-center mb-2">Social Media</h3>
 
-                            <div>
-                                <a className="flex items-center" href="https://www.linkedin.com/in/supawith-jangtrakul-8920173a4/" target="_blank">
+                            <div className="grid grid-cols-[max-content] justify-center gap-y-1">
+                                <a id="contact-link" className="flex items-center text-[1.25rem] md:text-[1.5rem] text-(--title-color) font-medium justify-between gap-x-2" href="https://www.linkedin.com/in/supawith-jangtrakul-8920173a4/" target="_blank">
                                     <span>LinkedIn</span>
                                     <svg className="w-6 h-6 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0 font-normal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>
                                 </a>
@@ -65,9 +65,9 @@ export default function Contact ()
                         </div>
 
                         <div>
-                            <h3>Write Me & We will Talk</h3>
+                            <h3 className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] text-(--first-color) text-center mb-2">Write Me & We will Talk</h3>
 
-                            <div>
+                            <div className="grid grid-cols-[max-content] justify-center gap-y-1">
                                 <a className="flex items-center" href="https://www.facebook.com/pann.supawith.jangtrakul" target="_blank">
                                     <span>Facebook</span>
                                     <svg className="w-6 h-6 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0 font-normal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z"></path></svg>

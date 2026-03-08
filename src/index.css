@@ -454,3 +454,12 @@
 #service-button svg {
     transition: rotate .4s;
 }
+
+#contact-link {
+    transition: transform .4s, color .4s;
+}
+
+#contact-link:hover {
+    transform: translateX(.35rem);
+    color: var(--text-color);
+}
