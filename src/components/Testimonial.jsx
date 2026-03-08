@@ -4,7 +4,7 @@ import TestimonialSlider from "./TestimonailSlider.jsx";
 export default function Testimonial ()
 {
     return (
-        <div className="pt-20 xl:min-h-screen lg:pt-36">
+        <div className="pt-20 xl:min-h-screen lg:pt-36 lg:pb-4">
             <Container>
                 <h2 className="md:text-center text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem]">
                     <span className="text-(--first-color)">What They Say</span>
