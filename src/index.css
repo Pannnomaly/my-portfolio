@@ -498,8 +498,16 @@
 }
 
 /* = Active Section = */
+.nav-link {
+    will-change: text-shadow;
+    transition: color .3s ease, text-shadow .3s ease;
+}
+
 .nav-link.active {
   color: var(--first-color);
+  text-shadow:
+    0 6px 10px var(--first-color),
+    0 12px 20px var(--first-color);
 }
 
 .cursor {
