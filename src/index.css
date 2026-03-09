@@ -329,6 +329,18 @@
     }
 }
 
+@media screen and (min-width: 2048px) {
+    body {
+        zoom: 1.4;
+    }
+}
+
+@media (pointer: coarse) {
+    .cursor {
+        display: none;
+    }
+}
+
 #shadow-hero {
     background: linear-gradient(180deg, hsla(240, 100%, 2%, 0) 60%, hsl(240, 100%, 2%) 85%);
 }
