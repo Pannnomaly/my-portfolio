@@ -37,13 +37,10 @@ export default function Navbar()
 
     },
     {
-        threshold: 0.35,
-        rootMargin: "-80px 0px -40% 0px"
+        threshold: 0.35
     });
 
-    sections.forEach(section => {
-        if(section) observer.observe(section)
-    });
+    sections.forEach((section) => observer.observe(section));
 
     return () => observer.disconnect();
 
