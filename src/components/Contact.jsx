@@ -11,9 +11,9 @@ export default function Contact ()
             <Container>
                 <div className="grid gap-y-16 pb-8 lg:gap-y-32">
                     <div className="text-center">
-                        <h2 className="mb-4 text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem]">Contact Me</h2>
+                        <h2 className="mb-10 text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem]">Contact Me</h2>
 
-                        <p className="font-unbounded mb-6 text-[1.25rem] md:text-[1.5rem]">
+                        <p className="font-unbounded mb-8 text-[1.25rem] md:text-[1.5rem]">
                             Tell me about your next project.
                         </p>
 
