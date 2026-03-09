@@ -485,6 +485,6 @@
 }
 
 /* = Active Section = */
-.active {
-    color: var(--first-color);
+.nav-link.active {
+  color: var(--first-color);
 }
