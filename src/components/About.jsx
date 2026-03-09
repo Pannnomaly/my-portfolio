@@ -12,11 +12,11 @@ export default function About ()
                             <span className="text-(--first-color)">Where Creativity</span>
                             <br />Meets Code
                         </h2>
-                        <p className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] mb-8 xl:mb-12">
+                        <p className="text-[1.25rem] md:text-[1.5rem] mb-8 xl:mb-12">
                             I am a <b className="text-(--first-color) font-semi-bold text-shadow-lg">Junior Full-Stack Developer</b> passionate about building modern and creative digital experiences. Driven by <b className="text-(--first-color) font-semi-bold text-shadow-lg">curiosity and continuous learning,</b> I enjoy experimenting with new technologies and turning ideas into real, functional products.
                         </p>
                         <div id="button-cv" className="cursor-pointer bg-(--body-color) text-(--title-color) py-4 px-8 rounded-[4rem] font-unbounded inline-flex items-center gap-x-2">
-                            <a className="text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] transition duration-400 ease-in-out" href="/pdf/supawithCV.pdf" download target="_blank">Resume</a>
+                            <a className="text-[1.25rem] md:text-[1.5rem] transition duration-400 ease-in-out" href="/pdf/supawithCV.pdf" download target="_blank">Resume</a>
                             <span><svg className="w-6 h-6 md:w-7 md:h-7 lg:w-9 lg:h-9 shrink-0 font-normal transition duration-400 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M21 8V20.9932C21 21.5501 20.5552 22 20.0066 22H3.9934C3.44495 22 3 21.556 3 21.0082V2.9918C3 2.45531 3.4487 2 4.00221 2H14.9968L21 8ZM19 9H14V4H5V20H19V9ZM8 7H11V9H8V7ZM8 11H16V13H8V11ZM8 15H16V17H8V15Z"></path></svg></span>
                         </div>
                     </div>
