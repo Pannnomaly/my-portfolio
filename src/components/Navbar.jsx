@@ -37,7 +37,7 @@ export default function Navbar()
 
     },
     {
-        threshold: 0.35
+        threshold: 0.25
     });
 
     sections.forEach((section) => observer.observe(section));
