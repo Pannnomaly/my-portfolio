@@ -7,7 +7,7 @@ export default function Contact ()
     const [copied, setCopied] = useState(false);
 
     return (
-        <div className="pt-20 xl:min-h-screen lg:pt-36">
+        <div id="contact-section" className="pt-20 xl:min-h-screen lg:pt-36">
             <Container>
                 <div className="grid gap-y-16 pb-8 lg:gap-y-32">
                     <div className="text-center">

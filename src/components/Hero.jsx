@@ -9,7 +9,7 @@ export default function Hero ()
     }, []);
 
     return (
-        <div className="relative pt-20 xl:min-h-screen">
+        <div id="hero-section" className="relative pt-20 xl:min-h-screen">
             <div id="shadow-hero" className="absolute w-full h-93.75 bottom-0 md:-bottom-1 z-1 lg:h-175"></div>
             <Container className="relative pt-16">
                 <div className="xl:absolute xl:top-72 xl:left-12 xl:z-2">

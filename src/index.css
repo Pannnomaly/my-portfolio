@@ -483,3 +483,8 @@
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--first-color);
 }
+
+/* = Active Section = */
+.active {
+    color: var(--first-color);
+}
