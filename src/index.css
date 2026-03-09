@@ -51,7 +51,8 @@
 }
 
 @layer base {
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch; }
 
   body {
     background-color: var(--body-color);
@@ -485,6 +486,6 @@
 }
 
 /* = Active Section = */
-.active {
-    color: var(--first-color);
+.nav-link.active {
+  color: var(--first-color);
 }
