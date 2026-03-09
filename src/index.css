@@ -329,12 +329,6 @@
     }
 }
 
-@media screen and (min-width: 2048px) {
-    body {
-        zoom: 1.4;
-    }
-}
-
 @media (pointer: coarse) {
     .cursor {
         display: none;
