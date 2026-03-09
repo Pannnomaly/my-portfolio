@@ -7,11 +7,13 @@ import Services from "@/components/Services.jsx";
 import Testimonial from "@/components/Testimonial.jsx";
 import Contact from "@/components/Contact.jsx";
 import Footer from "@/components/Footer.jsx";
+import CustomCursor from "@/components/CustomCursor.jsx";
 
 export default function Homepage ()
 {
     return (
         <div className="min-h-screen">
+            <CustomCursor />
             <Navbar />
             <Hero />
             <About />
