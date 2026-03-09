@@ -489,3 +489,10 @@
 .nav-link.active {
   color: var(--first-color);
 }
+
+.cursor {
+    box-shadow: 0 0 30px var(--first-color);
+    mix-blend-mode: difference;
+    pointer-events: none;
+    transition: transform .2s ease-out, left .2s ease-out, top .2s ease-out, width .3s, height .3s;
+}
