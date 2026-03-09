@@ -3,7 +3,7 @@ import Container from "../lib/Container.jsx";
 export default function About ()
 {
     return (
-        <div className="relative pt-20 xl:min-h-screen md:pt-36 md:pb-26">
+        <div id="about-me-section" className="relative pt-20 xl:min-h-screen md:pt-36 md:pb-26">
             <div id="shadow-about" className="w-full h-64.5 absolute -bottom-1 md:bottom-24 lg:h-150 z-1"></div>
             <Container id="about-container" className="relative pt-16">
                 <div className="grid gap-y-12 xl:grid-cols-2 xl:items-center xl:gap-x-20">
