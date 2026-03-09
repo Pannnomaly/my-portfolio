@@ -37,7 +37,7 @@ export default function Navbar()
 
     },
     {
-        threshold: 0.4
+        threshold: 0.35
     });
 
     sections.forEach((section) => observer.observe(section));
@@ -52,7 +52,7 @@ export default function Navbar()
 
             <Container className="flex justify-between items-center py-4 font-unbounded tracking-widest">
                 <div className="font-semibold text-(--title-color) text-shadow-lg hover:text-(--first-color) self-start transition duration-400 ease-in-out">
-                    <a href="#hero-section" className="nav-link">Supawith</a>
+                    <a href="#hero-section">Supawith</a>
                 </div>
                 <ul className="flex flex-col items-end gap-y-2 md:flex-row md:gap-x-12 lg:gap-x-22">
                     <li className="text-(--title-color) hover:text-(--first-color) font-semibold">
