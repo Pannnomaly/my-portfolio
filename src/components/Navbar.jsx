@@ -51,18 +51,18 @@ export default function Navbar()
             <div id="blob-animate" className="-top-12 -left-12"></div>
 
             <Container className="flex justify-between items-center py-4 font-unbounded tracking-widest">
-                <div className="font-semibold text-(--title-color) text-shadow-2xs hover:text-(--first-color) self-start transition duration-400 ease-in-out">
+                <div className="font-semibold text-(--title-color) text-shadow-lg hover:text-(--first-color) self-start transition duration-400 ease-in-out">
                     <a href="#hero-section" className="nav-link">Supawith</a>
                 </div>
                 <ul className="flex flex-col items-end gap-y-2 md:flex-row md:gap-x-12 lg:gap-x-22">
                     <li className="text-(--title-color) hover:text-(--first-color) font-semibold">
-                        <a href="#about-me-section" className="nav-link text-(--small-font-size) text-shadow-2xs transition duration-400 ease-in-out">About Me</a>
+                        <a href="#about-me-section" className="nav-link text-(--small-font-size) text-shadow-lg transition duration-400 ease-in-out">About Me</a>
                     </li>
                     <li className="text-(--title-color) hover:text-(--first-color) font-semibold">
-                        <a href="#projects-section" className="nav-link text-(--small-font-size) text-shadow-2xs transition duration-400 ease-in-out">Projects</a>
+                        <a href="#projects-section" className="nav-link text-(--small-font-size) text-shadow-lg transition duration-400 ease-in-out">Projects</a>
                     </li>
                     <li className="text-(--title-color) hover:text-(--first-color) font-semibold">
-                        <a href="#contact-section" className="nav-link text-(--small-font-size) text-shadow-2xs transition duration-400 ease-in-out">Contact</a>
+                        <a href="#contact-section" className="nav-link text-(--small-font-size) text-shadow-lg transition duration-400 ease-in-out">Contact</a>
                     </li>
                 </ul>
             </Container>
