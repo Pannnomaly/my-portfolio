@@ -1,16 +1,91 @@
-# React + Vite
+# Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive developer portfolio built to showcase my projects, skills, and experience.  
+This project focuses on creating a clean UI, smooth interactions, and a responsive experience across all devices.
 
-Currently, two official plugins are available:
+## Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Smooth section navigation with scroll-based routing
+- Motion-enhanced UI animations
+- Custom cursor interaction (desktop only)
+- Interactive project slider
+- Testimonial slider with continuous motion
+- Email copy-to-clipboard interaction
+- Error page handling for invalid routes
+- Fully responsive layout across breakpoints
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Frontend**
+- React
+- Tailwind CSS
+- JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+**Libraries**
+- Swiper
+- Anime.JS
+- Framer Motion
+- React Fast Marquee
+- React Copy to Clipboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Tooling**
+- ESLint
+- Vercel (Deployment)
+
+## Features
+
+### Navigation
+Section-based navigation implemented using React hooks (`useEffect`) for smooth scrolling behavior.
+
+### Motion & Interaction
+Animations across UI components using `Framer Motion` to enhance visual feedback and engagement.
+
+### Hero Animation
+Dynamic text animation powered by `Anime.js` to create subtle motion effects in the hero section.
+
+### Project Showcase
+Interactive project slider using `Swiper.js` to browse projects smoothly.
+
+### Testimonials
+Continuous testimonial slider powered by `react-fast-marquee`.
+
+### Contact Interaction
+Copy email instantly using `react-copy-to-clipboard` to prevent user input errors.
+
+### Error Handling
+Custom error page to handle invalid routes and improve user navigation experience.
+
+### Responsive Design
+Optimized layout across mobile, tablet, and desktop devices.
+
+## Development Workflow
+
+This project follows a structured Git workflow:
+
+`feature/* → develop → main`
+
+Each feature was developed in isolated branches and merged via Pull Requests.
+
+Example features developed during the project:
+
+- `feature/custom-cursor`
+- `feature/navbar`
+- `feature/hero`
+- `feature/about`
+- `feature/projects`
+- `feature/work`
+- `feature/services`
+- `feature/testimonial`
+- `feature/contact`
+- `feature/footer`
+- `feature/motion`
+
+Preview deployments were used to validate UI behavior and responsiveness before final release.
+
+## Deployment
+
+The project is deployed using **Vercel**.
+
+## Author
+
+Built and designed by **Supawith Jangtrakul**.
