@@ -1,27 +1,24 @@
-import { motion } from "framer-motion";
+import { motion, useMotionValue } from "framer-motion";
 import { useState, useEffect } from "react";
 
 export default function CustomCursor ()
 {
-    const [mouse, setMouse] = useState({ x: 0, y: 0 });
+    const mouseX = useMotionValue(0);
+    const mouseY = useMotionValue(0);
+
     const [hidden, setHidden] = useState(false);
 
     useEffect(() => {
+
         const moveCursor = (e) => {
-            setMouse({
-                x: e.clientX,
-                y: e.clientY
-            });
 
-        const target = e.target.closest("a, button, svg");
-        const isInteractive = !!target;
+            mouseX.set(e.clientX);
+            mouseY.set(e.clientY);
 
-            setHidden(prev => {
-                if (prev !== isInteractive) {
-                    return isInteractive;
-                }
-                return prev;
-            });
+            const target = e.target.closest("a, button, svg");
+            const isInteractive = !!target;
+
+            setHidden(prev => prev !== isInteractive ? isInteractive : prev);
         };
 
         window.addEventListener("mousemove", moveCursor);
@@ -29,19 +26,17 @@ export default function CustomCursor ()
         return () => {
             window.removeEventListener("mousemove", moveCursor);
         };
-    }, []);
+    }, [mouseX, mouseY]);
 
     return (
             <motion.div
                 className="cursor fixed left-0 top-0 z-[9999] w-12.5 h-12.5 bg-(--first-color) rounded-[50%]"
-                animate={{
-                    x: mouse.x,
-                    y: mouse.y,
-                    scale: hidden ? 0 : 1
-                }}
                 style={{
+                    x: mouseX,
+                    y: mouseY,
                     translateX: "-50%",
-                    translateY: "-50%"
+                    translateY: "-50%",
+                    scale: hidden ? 0 : 1
                 }}
                 transition={{
                     type: "spring",
