@@ -14,12 +14,14 @@ export default function CustomCursor ()
             });
 
         const target = e.target.closest("a, button, svg");
+        const isInteractive = !!target;
 
-            if (target) {
-                setHidden(true);
-            } else {
-                setHidden(false);
-            }
+            setHidden(prev => {
+                if (prev !== isInteractive) {
+                    return isInteractive;
+                }
+                return prev;
+            });
         };
 
         window.addEventListener("mousemove", moveCursor);
@@ -31,7 +33,7 @@ export default function CustomCursor ()
 
     return (
             <motion.div
-                className="cursor fixed left-0 top-0 z-9999 w-12.5 h-12.5 bg-(--first-color) rounded-[50%]"
+                className="cursor fixed left-0 top-0 z-[9999] w-12.5 h-12.5 bg-(--first-color) rounded-[50%]"
                 animate={{
                     x: mouse.x,
                     y: mouse.y,
@@ -43,8 +45,8 @@ export default function CustomCursor ()
                 }}
                 transition={{
                     type: "spring",
-                    stiffness: 500,
-                    damping: 30
+                    stiffness: 200,
+                    damping: 25
                 }}
             />
     );
