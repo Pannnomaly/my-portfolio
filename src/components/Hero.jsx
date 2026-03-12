@@ -21,7 +21,7 @@ export default function Hero ()
                 <div className="relative grid overflow-y-clip">
                     <div id="blob-animate-hero"></div>
                     <div className="flex justify-center mt-12">
-                        <motion.img {...heroImage} className="w-70 md:w-90 lg:w-120 xl:w-140 self-center" src="profile.PNG" alt="profile picture" />
+                        <motion.img {...heroImage} className="w-70 md:w-90 lg:w-120 xl:w-140 self-center" src="hero-pic.PNG" alt="profile picture" />
                     </div>
                 </div>
                 <motion.div {...heroInfo} className="absolute z-2 -bottom-10 md:-bottom-22  justify-self-center xl:top-72 xl:right-4">

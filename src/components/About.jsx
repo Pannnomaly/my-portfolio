@@ -26,7 +26,7 @@ export default function About ()
                         <div id="blob-animate-about" className="top-5 -left-8"></div>
                         <div id="blob-animate-about" className="-right-8 bottom-10 md:bottom-18 lg:-right-18 lg:bottom-16 xl:right-6"></div>
                         <div className="flex justify-center mt-12 xl:pr-24">
-                            <img className="w-60 md:w-80 lg:w-110 xl:w-120 self-center" src="profile.PNG" alt="profile picture" />
+                            <img className="w-60 md:w-80 lg:w-110 xl:w-120 self-center" src="about-pic.PNG" alt="about picture" />
                         </div>
                     </motion.div>
                 </div>
