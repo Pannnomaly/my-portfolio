@@ -491,6 +491,17 @@
     background-color: var(--first-color);
 }
 
+/* = Selection = */
+::selection {
+    background: var(--first-color);
+    color: #f5f5f5;
+}
+
+::-moz-selection {
+    background: var(--first-color);
+    color: #f5f5f5;
+}
+
 /* = Active Section = */
 .nav-link {
     will-change: text-shadow;
