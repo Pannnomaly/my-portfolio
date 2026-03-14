@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 export default function TestimonialSlider ()
 {
     return (
-        <Marquee autoFill speed={50} pauseOnHover={true} gradient={false}>
+        <Marquee speed={50} pauseOnHover={true} gradient={false}>
             {testimonials.map((testimonial) => (
                 <article key={testimonial.id} className="relative flex flex-col w-[350px] md:!w-[450px] lg:!w-[550px] mx-4 bg-(--container-color) pt-6 px-6 pb-10 rounded-[3rem] text-center overflow-hidden cursor-pointer">
                     <div id="blob-animate-testimonial"></div>
