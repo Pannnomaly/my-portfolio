@@ -8,6 +8,7 @@ export const testimonials = [
             halfStar: "0",
             allStar: "5",
             description: "I had the privilege of being Supawith’s technical instructor over the course of four months, and throughout that time, Supawith consistently stood out through both character and capability. Deeply committed, kind, and creative, he approaches every challenge with thoughtfulness and maturity. Supawith has a strong grasp of programming concepts, learns quickly, and adapts impressively well to new tools and unfamiliar problems. What makes Supawith especially memorable is the combination of technical strength, humility, and wisdom beyond his years. I would wholeheartedly recommend him to any AI and software engineering team looking for someone with strong technical and leadership potential, as well as the character and presence that genuinely lifts the whole team.",
+            link: "https://drive.google.com/file/d/1t6XBPmKGegQO-Nsl8LIFtVgyXMqtldbe/view?usp=sharing",
         },
     // {
     //     id: 2,
